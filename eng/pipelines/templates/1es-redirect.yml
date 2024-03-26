@@ -32,6 +32,8 @@ extends:
       psscriptanalyzer:
         compiled: true
         break: true
+      credscan:
+        suppressionsFile: '$(Build.SourcesDirectory)/eng/CredScanSuppression.json'
     stages:
     - ${{ each stage in parameters.stages }}:
       - ${{ each pair in stage }}:

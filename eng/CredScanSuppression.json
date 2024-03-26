@@ -1,0 +1,22 @@
+{
+    "tool": "Credential Scanner",
+    "suppressions": [
+        {
+            "placeholder": [
+                "Sanitized",
+                "Basic 000000000000000000000000000000000000000000000000000",
+                "<clientsecret>",
+                "x",
+                "00000000-0000-0000-0000-000000000000",
+                "2",
+                "pwd",
+                "un",
+                "000000000000",
+                "password",
+                "abcdef12345",
+                "Y0uW1llN3v3rGu3ss!"
+            ],
+            "_justification": "Secrets used by test code. All are fake."
+        }
+    ]
+}
